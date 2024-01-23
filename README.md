@@ -7,7 +7,9 @@ There are implementations of all the DSA topics from the course by ThePrimeagen,
 ## Topics
 - Introduction [ ✅ ]
 - Basics [ ✅ ] 
-- Search [  ]
+- Search [ ✅ ]
+    * Linear Search
+    * Binary Search
 - Sort [  ]
 - Arrays [  ]
 - Recursion [  ]
