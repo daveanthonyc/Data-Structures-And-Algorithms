@@ -5,19 +5,19 @@ There are implementations of all the DSA topics from the course by ThePrimeagen,
 **My progress is denoted by the ticks✅ next to the topics below**
 
 ## Topics
-- Introduction [✅]
-- Basics [ ] 
-- Search [ ]
-- Sort [ ]
-- Arrays [ ]
-- Recursion [ ]
-- Quick Sort [ ]
-- Doubly Linked List [ ]
-- Trees [ ]
-- Tree Search [ ]
-- Heap [ ]
-- Graphs [ ]
-- Maps & LRU [ ]
+- Introduction [ ✅ ]
+- Basics [  ] 
+- Search [  ]
+- Sort [  ]
+- Arrays [  ]
+- Recursion [  ]
+- Quick Sort [  ]
+- Doubly Linked List [  ]
+- Trees [  ]
+- Tree Search [  ]
+- Heap [  ]
+- Graphs [  ]
+- Maps & LRU [  ]
 
 ### Installation
 - clone the project
