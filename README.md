@@ -6,7 +6,7 @@ There are implementations of all the DSA topics from the course by ThePrimeagen,
 
 ## Topics
 - Introduction [ ✅ ]
-- Basics [  ] 
+- Basics [ ✅ ] 
 - Search [  ]
 - Sort [  ]
 - Arrays [  ]
