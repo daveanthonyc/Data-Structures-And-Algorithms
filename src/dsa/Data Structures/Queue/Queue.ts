@@ -9,8 +9,7 @@ export default class Queue<T> {
     private length: number;
 
     constructor() {
-        this.head = undefined;
-        this.tail = undefined;
+        this.head = this.tail = undefined;
         this.length = 0;
     }
 
@@ -23,8 +22,7 @@ export default class Queue<T> {
         this.length++;
 
         if (!this.tail) {
-            this.head = node;
-            this.tail = node;
+            this.head = this.tail = node;
         }
 
         this.tail.next = node;
