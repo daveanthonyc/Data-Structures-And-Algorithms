@@ -2,6 +2,7 @@ function binarySearch(arr: number[], target: number) {
     let start = 0;
     let end = arr.length-1;
 
+    // out of bounds pre check
     if (target < arr[start]) {
         return false;
     }
