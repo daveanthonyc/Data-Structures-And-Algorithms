@@ -15,7 +15,10 @@ These are implementations of all the DSA topics from the course by ThePrimeagen,
     * Linked List Introduction
     * Queue
     * Stack
-- Arrays [  ]
+- Arrays [ ✅ ]
+    * Array vs LinkedList
+    * ArrayList
+    * ArrayBuffer
 - Recursion [  ]
 - Quick Sort [  ]
 - Doubly Linked List [  ]
