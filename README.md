@@ -10,7 +10,11 @@ There are implementations of all the DSA topics from the course by ThePrimeagen,
 - Search [ ✅ ]
     * Linear Search
     * Binary Search
-- Sort [  ]
+- Sort [ ✅ ]
+    * Bubble Sort
+    * Linked List Introduction
+    * Queue
+    * Stack
 - Arrays [  ]
 - Recursion [  ]
 - Quick Sort [  ]
