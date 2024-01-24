@@ -19,7 +19,7 @@ These are implementations of all the DSA topics from the course by ThePrimeagen,
     * Array vs LinkedList
     * ArrayList
     * ArrayBuffer
-- Recursion [  ] 👷🏼
+- Recursion [  ] 👈
 - Quick Sort [  ]
 - Doubly Linked List [  ]
 - Trees [  ]
