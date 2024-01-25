@@ -17,7 +17,7 @@ function walk(maze: string[], wall: string, curr: Point, end: Point, seen: boole
     }
 
     // 4. reached the end point */
-    if (curr.y = end.y && curr.x === end.x) {
+    if (curr.y === end.y && curr.x === end.x) {
         return true
     }
 
