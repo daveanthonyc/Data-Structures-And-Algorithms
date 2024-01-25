@@ -32,5 +32,25 @@ Linking these together, we can only know the return value of the recursion until
         2. recurse
         3. post-recurse
 
+# Base Case Analysis
+- It seems like the base case are the condition/s that would stop a recurse from being indefinite
+- So I can think about how the recurse generally works and then see what conditions would stop it
+- There is some level of thought needed in how to implement the base case. For example, what dependencies would it need and what type would they be? Would you have to modify an existing type? Or just create a new type?
+
+# Creating functions
+- I can think about what you would name the act of recursing and make that as a separate function to recurse in
+- Then the first function given would be something:
+    1. to declare variables in 
+    2. run the actual recurse function
+    3. return the expected result of problem/function
+
+# How to determine if there are steps in pre, recurse and post?
+- In the case of the maze solver, I push a point to the seen array, then recurse, steps happening after the recurse means that no.......
+
 # Questions
 - Given a recursive function, why write 2 functions for it?
+
+# Summary
+- Figure out base case first, which is what conditions stop your general recurse?
+- Create function for recursion, and implement base case with dependency types in mind
+- Think about pre, recurse, and post
