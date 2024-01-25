@@ -54,3 +54,11 @@ Linking these together, we can only know the return value of the recursion until
 - Figure out base case first, which is what conditions stop your general recurse?
 - Create function for recursion, and implement base case with dependency types in mind
 - Think about pre, recurse, and post
+
+# Reflection
+- There was a lot of difficulty debugging recursion
+- I realised that not testing base cases made it so much harder
+- In addition, I found it hard to grasp what the return values really meant in the algorithm and just started putting random return true false;
+- Dig deeper: 
+    Understand more what the exit condition does
+    Understand the recurse return value and how it affects the algorithm
