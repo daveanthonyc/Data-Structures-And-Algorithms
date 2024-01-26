@@ -32,4 +32,4 @@ These are implementations of all the DSA topics from the course by ThePrimeagen,
 ### Installation
 - clone the project
 - npm install
-- npm run test
+- npm test
