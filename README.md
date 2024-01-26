@@ -2,8 +2,9 @@
 These are implementations of all the DSA topics from the course by ThePrimeagen, "The Last Algorithms Course You'll Need".
 [Access the course here](https://frontendmasters.com/courses/algorithms/)
 
-**Helpful markdown notes are included on basic definitions and tradeoffs of the algorithms but more importantly some of my comments, and analysis on problem solving techniques**
-**My progress is denoted by the ticks next to the topics below** ✅
+**Helpful markdown notes are included on basic definitions and tradeoffs of the algorithms but more importantly some of my comments, and analysis on problem solving techniques.**
+
+**My progress is denoted by the ticks next to the topics below:** ✅
 
 ## Topics
 - Introduction [ ✅ ]
