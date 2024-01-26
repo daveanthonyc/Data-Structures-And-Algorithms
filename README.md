@@ -22,7 +22,7 @@ These are implementations of all the DSA topics from the course by ThePrimeagen,
 - Recursion [ ✅ ] 
     * Path Finding Algorithm
 - Quick Sort [ ✅ ]
-- Doubly Linked List [  ]
+- Doubly Linked List [  ] 👈
 - Trees [  ]
 - Tree Search [  ]
 - Heap [  ]
