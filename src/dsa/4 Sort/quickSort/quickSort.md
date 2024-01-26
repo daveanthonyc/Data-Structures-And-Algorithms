@@ -30,3 +30,14 @@ This leads to quite a few questions:
 
 # Questions
 - how to analyse the running time to definitely get O(n log n)?
+
+# What worked
+- First starting with starter function and entering necessary constants
+- creating function that recurses and add general steps to the algorithm with abstraction:
+    - It seems to rely on dependencies
+    - Write base case
+    - // comment steps to generally recurse
+    - if many steps, in recurse process, then put in separate function especially if not specifically related to the general algorithm
+    - write out recursive function calls in the function
+    - write 
+- Take any comments for the specific steps in recursion and place in separate function to implement in specific detail
