@@ -21,7 +21,7 @@ These are implementations of all the DSA topics from the course by ThePrimeagen,
     * ArrayBuffer
 - Recursion [ ✅ ] 
     * Path Finding Algorithm
-- Quick Sort [  ] 👈
+- Quick Sort [ ✅ ]
 - Doubly Linked List [  ]
 - Trees [  ]
 - Tree Search [  ]
