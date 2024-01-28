@@ -26,8 +26,8 @@ Here are implementations of all the DSA topics from the course by ThePrimeagen, 
 - Quick Sort [ ✅ ]
 - Doubly Linked List [ ✅ ]
 - Trees [ ✅ ] 
-- Tree Search [  ] 👈
     * Pre/In/Post order traversal
+- Tree Search [  ] 👈
 - Heap [  ]
 - Graphs [  ]
 - Maps & LRU [  ]
