@@ -25,8 +25,9 @@ Here are implementations of all the DSA topics from the course by ThePrimeagen, 
     * Path Finding Algorithm
 - Quick Sort [ ✅ ]
 - Doubly Linked List [ ✅ ]
-- Trees [  ] 👈
-- Tree Search [  ]
+- Trees [ ✅ ] 
+- Tree Search [  ] 👈
+    * Pre/In/Post order traversal
 - Heap [  ]
 - Graphs [  ]
 - Maps & LRU [  ]
