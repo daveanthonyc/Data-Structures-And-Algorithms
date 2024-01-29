@@ -45,3 +45,4 @@ To visit all nodes, is a running time of O(n).
 - In recursion, it seems a bit tricky to follow and track how dependencies are mutated. How to keep track of them especially if they are returned?
 - There is a bit of confusion with recursion in terms of knowing what the return values should be. I'm not sure how to use the return values to make the code convenient
 - I'm having trouble keeping track the return address and return values and how it goes up and down a stack.
+- I'm getting confused on what should be the return values
