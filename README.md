@@ -28,6 +28,13 @@ Here are implementations of all the DSA topics from the course by ThePrimeagen, 
 - Trees [ ✅ ] 
     * Pre/In/Post-Order Traversal
 - Tree Search [  ] 👈
+    * Breadth First Search
+    * Search Practice
+    * Binary Tree Comparison
+    * Depth-First: Find
+    * Depth-First: Insert
+    * Depth-First: Delete
+    * Dpeth-First-Search
 - Heap [  ]
 - Graphs [  ]
 - Maps & LRU [  ]

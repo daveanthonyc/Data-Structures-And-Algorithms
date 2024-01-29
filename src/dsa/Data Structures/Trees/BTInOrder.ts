@@ -15,6 +15,7 @@ function walk(curr: BinaryTreeNode<number> | undefined, path: number[]): number[
     }
 
     walk(curr.left, path);
+    path.push(curr.value);
     walk(curr.right, path);
     return path;
 }
