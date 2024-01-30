@@ -36,6 +36,9 @@ Here are implementations of all the DSA topics from the course by ThePrimeagen, 
     * Depth-First: Delete
     * Dpeth-First-Search Implementation
 - Heap [  ] 👈
+    * Heap
+    * Implementing Heap
+    * Tries
 - Graphs [  ]
 - Maps & LRU [  ]
 
