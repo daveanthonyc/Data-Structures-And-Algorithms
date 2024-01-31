@@ -30,3 +30,8 @@ Then in a heap implemented in an arrayList, how then can we access children?
 
 Then how about getting the parent?
 - Math.floor((i-1)/2)
+
+Heap do not have empty spaces, meaning no left node would have an empty space whilst a right node is full. So it fills in from the left to the right
+
+GOOD:
+- WHen inserting, it always balances
