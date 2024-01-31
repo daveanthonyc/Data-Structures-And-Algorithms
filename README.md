@@ -35,11 +35,18 @@ Here are implementations of all the DSA topics from the course by ThePrimeagen, 
     * Depth-First: Insert
     * Depth-First: Delete
     * Dpeth-First-Search Implementation
-- Heap [  ] 👈
+- Heap [ ✅ ] 
     * Heap
     * Implementing Heap
     * Tries
-- Graphs [  ]
+- Graphs [  ] 👈
+    * Graph Overview
+    * Searching an adjacency matrix
+    * Implementing BFS on an adjacency matrix
+    * Implementing DFS on an adjacency matrix
+    * Dijkstra's Shortest Path
+    * Dijkstra's Shortest Path: Implementation
+    * Dijkstra's Shortest Path: Running Time
 - Maps & LRU [  ]
 
 ### Installation
