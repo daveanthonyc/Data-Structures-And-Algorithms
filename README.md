@@ -2,6 +2,8 @@
 Here are implementations of all the DSA topics from the course by ThePrimeagen, "The Last Algorithms Course You'll Need".
 [Access the course here](https://frontendmasters.com/courses/algorithms/)
 
+**UPDATE 2/2/2024: As this course is mainly to learn the fundamentals and implement SOME of the basics, I have added another directory of DSA specific problems called the [Blind 75](https://neetcode.io/practice) to practice the implementations. 
+
 **Helpful markdown notes are included in the separate directories for each topic regarding their basic definitions and tradeoffs. But more importantly, some of my comments and analysis on the nuances of problem solving techniques are noted down as well. This is not only for my learning but also for the helpful guidance of others.**
 
 **My progress is denoted by the ticks next to the topics below:** ✅
