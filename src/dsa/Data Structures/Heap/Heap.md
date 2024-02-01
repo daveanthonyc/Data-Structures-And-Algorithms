@@ -35,3 +35,18 @@ Heap do not have empty spaces, meaning no left node would have an empty space wh
 
 GOOD:
 - WHen inserting, it always balances
+
+# Analysis of Heap Implementation
+- There were several private functions needed on top of the public insert/delete methods
+- These private functions ensured the single responsibillity principle where the main methods remain abstract and represent what the algorithm is.
+- If a general step of the algorithm needs quite a bit of calculation or is a bit involved, then it can be abstracted out as a private function such that the main method clearly maintains a single responsibility that could be seen as general.
+
+- It was implemented by first abstracting out specific functions that were simple to make
+
+- Maybe I could think of the general implementation of the algorithm, and then start coding with the smaller functions
+- Have an idea of how the algorithm works, then code.
+
+# Difficulty
+- It was a bit difficult implementing the logic of the heapify down as I wasn't sure about the conditions
+- I'm also always confused by off by one cases in the case of what to do with inclusive/exclusive values
+- e.g whether to put a < or a <= in algorithms
