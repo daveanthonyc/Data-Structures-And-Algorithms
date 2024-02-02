@@ -9,6 +9,7 @@ It is a series of nodes with some amount of connections
 ### Graph Connections
 - Graph connections have specific directions to their connections. So there can be one way connections, or two way.
 - Asymetric Graphs, there can be specific values to the directions between nodes
+- Asymetric relationships
 
 E.g
             100
@@ -25,13 +26,44 @@ Hence for running time, it isn't N for input, but O(E)
 
 # 2 Ways to represent Graphs:
 1. Adjacency List
-2. Adjacency Matrix (Rarely see this one as it takes up a lot of memory O(E^2))
+2. Adjacency Matrix (Rarely see this one as it takes up a lot of memory O(V^2))
 
 Have to describe WHERE it is going and WEIGHT of direction
 
 # Adjacency List:
 You can represent this as a list of tuple: [edge3, 10] 
 
-# Adjacency Matrix:
+# Adjacency Matrix: O(V)^2 to setup
 - Each array represents a node
 - Each index in the array represents the weight of the connection, and the position of the index in that array, represents the node
+- Hence never used for maps
+- Because each node is represented by a list, but that list is as long as how many nodes there are
+- Hence requires so much memory
+- amount of space = O(V)*2
+
+# Searching an Adjacency Matrix
+
+How an adjacency list is done:
+There is an array of 'tuples' and the index of each tuple is associated with the node it represents.
+The values in the tuple when then have to be the index of the node that it points to, and also the weight of connection to that node
+
+E.g a cyclic graph 0 -> 1 -> 2 -> (look back to 0)
+would be represented as:
+[
+    [{dir: 1, weight: 5}],
+    [{dir: 2, weight: 5}],
+    [{dir: 0, weight: 5}],
+]
+
+# Traversing an Adjacency List
+Can visualise the recusive process using a pseudo stack
+push() when visiting a node, if no chidlren, then pop() until no nodes left
+- Seems important to keep track of visited nodes in a graph
+
+BFS on Graph 
+- Seems important to be able to know how a queue is used and when exactly nodes are shifted and pushed 
+- Pop off first element first, then push the connections
+- To implement a BFS, it requires a seen, prev and queue array.
+
+# Ideas on coding solutions to understand them quickly
+- code out the solution line by line but write extensive comments on the reasoning behind each little thing
