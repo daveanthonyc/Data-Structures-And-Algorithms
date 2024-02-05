@@ -31,7 +31,12 @@ Hence for running time, it isn't N for input, but O(E)
 Have to describe WHERE it is going and WEIGHT of direction
 
 # Adjacency List:
-You can represent this as a list of tuple: [edge3, 10] 
+You can represent this as a list of tuple:
+    [
+        [{to: 4, weight: 5}],
+        [{to: 0, weight: 9}],
+        [{to: 2, weight: 1}],
+    ]
 
 # Adjacency Matrix: O(V)^2 to setup
 - Each array represents a node
@@ -60,10 +65,19 @@ Can visualise the recusive process using a pseudo stack
 push() when visiting a node, if no chidlren, then pop() until no nodes left
 - Seems important to keep track of visited nodes in a graph
 
-BFS on Graph 
+# BFS on Graph 
 - Seems important to be able to know how a queue is used and when exactly nodes are shifted and pushed 
 - Pop off first element first, then push the connections
 - To implement a BFS, it requires a seen, prev and queue array.
 
 # Ideas on coding solutions to understand them quickly
 - code out the solution line by line but write extensive comments on the reasoning behind each little thing
+
+# BFS on Adjacency Matrix
+- We need to preserve the shape of the graph with BFS, so that's why we don't use recursion. Then in a graph the best way to do this is through a "previous" array
+- Since we can't use recursion as we need to preserve the shape of the graph
+
+# Solving Algorithm quickly
+- When doing Leetcode, I found that whiteboarding it slowly and iterating over the pseudo code helped quite a lot
+- So when learning algorithms I think I should whiteboard over it slowly until I get the logic
+- I should first understand how the basic iteration/recurse looks like. E.g the order of how nodes are visited
