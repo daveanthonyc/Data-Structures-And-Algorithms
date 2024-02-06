@@ -81,3 +81,17 @@ push() when visiting a node, if no chidlren, then pop() until no nodes left
 - When doing Leetcode, I found that whiteboarding it slowly and iterating over the pseudo code helped quite a lot
 - So when learning algorithms I think I should whiteboard over it slowly until I get the logic
 - I should first understand how the basic iteration/recurse looks like. E.g the order of how nodes are visited
+
+# Previous Array in BFS 
+- the previous array index indicates the parent of the current node that we iterated from
+- Hence for the source node, we haven't iterated from anything, but started at it, so it has no previous node and hence the value is "null" or -1
+
+# Analysis of constructing algorithm
+- Think of variables needed e.g:
+    - Seen array -> when traversing the graph especially cyclic portions, I don't want the algorithm to enter a loop, but to visit all nodes and terminate
+    - Prev array -> So when the algorithm finally comes across the target I'm searching for, then this previous array allows me to trace the path back from target to source and essentially get the path in reverse.
+        - Question, why can't we use the seen array to construct the path? -> 
+- When constructing loops always think of additional break cases that are outside of the main exit loop condition 
+
+# Dijkstra's Shortest Path
+It finds the shortest path to all other nodes from a source node
